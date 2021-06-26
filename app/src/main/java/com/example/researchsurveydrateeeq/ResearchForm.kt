@@ -17,7 +17,9 @@ class ResearchForm : AppCompatActivity() {
     private lateinit var binding:ActivityResearchFormBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_research_form)
+
         binding = ActivityResearchFormBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
@@ -76,7 +78,7 @@ class ResearchForm : AppCompatActivity() {
             else{
                 Toast.makeText(this,"Else",Toast.LENGTH_SHORT).show()
                 try{
-                FirebaseFirestore.getInstance().collection("Patient").document(age)
+                FirebaseFirestore.getInstance().collection("Patients").document(age)
                         .set(patient).addOnSuccessListener {
                             Toast.makeText(this,"Data Added Succefully",Toast.LENGTH_SHORT).show()
                         }.addOnFailureListener{
