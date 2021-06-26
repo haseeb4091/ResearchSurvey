@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Research Survey (Dr Ateeeq)</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="education">
+        <item>illiterate</item>
+        <item>Primary</item>
+        <item>middle</item>
+        <item>matric</item>
+        <item>FA/FSC</item>
+        <item>Bachelor</item>
+        <item>Master</item>
+    </string-array>
+    <string-array name="glucoselevel">
+        <item>Daily(less than or equal to 3days)</item>
+        <item>Weekly(less than or equal to 4days)</item>
+        <item>Monthly(less than or equal to 2months)</item>
+        <item>Every 4 Months</item>
+    </string-array>
+    <string-array name="checking">
+        <item>Self(patient able to use GM)</item>
+        <item>Dependant(patient not able to use GM)</item>
+
+    </string-array>
+</resources>

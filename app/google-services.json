@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348773972641",
+    "project_id": "research-survey-49787",
+    "storage_bucket": "research-survey-49787.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348773972641:android:67ba7f218a32de94cf4ee0",
+        "android_client_info": {
+          "package_name": "com.example.researchsurveydrateeeq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348773972641-n0c44arp2p0rk904bihoq811an2lrhbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChi6pB9HIK3z92iOneXNZYljfjTQFJOWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348773972641-n0c44arp2p0rk904bihoq811an2lrhbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
